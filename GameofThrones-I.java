@@ -1,5 +1,5 @@
 import java.util.*;
-class GameofThrones-1
+class GameofThrones-I
 {
   public static void main(String args[])
   {
