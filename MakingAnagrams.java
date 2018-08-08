@@ -3,7 +3,7 @@ class MakingAnagrams
 {
   public static void main(String args[])
   {
-    Scanner sc = new Scanner(System.in)
+    Scanner sc = new Scanner(System.in);
     String s1 = sc.next();
     String s2 = sc.next();
     int s1a[] = new int[26];
