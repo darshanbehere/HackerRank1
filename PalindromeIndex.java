@@ -8,7 +8,7 @@ class PalindromeIndex{
 	for(int i=0;i<s.length()/2;i++){
 			char st = s.charAt(i);
 			char ed = s.charAt(end);
-			if(st!=end){
+			if(st!=ed){
 				boolean flag=true;
 				for(int j=i,en=end-1,c=end;j<s.length()/2;j++,en--){
 					st=s.charAt(j);
