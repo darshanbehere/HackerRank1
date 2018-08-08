@@ -9,7 +9,7 @@ class StringConstruction
     int dollar=0;
     for(int i=0;i<s.length();i++)
     {
-      if(a[s.charAt(i)]==0)
+      if(a[s.charAt(i)-'a']==0)
         dollar++;
       a[s.charAt(i)-'a']++;
     }
