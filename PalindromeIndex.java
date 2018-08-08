@@ -10,7 +10,8 @@ class PalindromeIndex{
 			char ed = s.charAt(end);
 			if(st!=ed){
 				boolean flag=true;
-				for(int j=i,en=end-1,c=end;j<s.length()/2;j++,en--){
+				c=end;
+				for(int j=i,en=end-1;j<s.length()/2;j++,en--){
 					st=s.charAt(j);
 					ed=s.charAt(en);
 					if(st!=ed){
@@ -21,7 +22,8 @@ class PalindromeIndex{
 				}
 				if(flag)
 					break;
-			for(int j=i+1,en=end,c=i;j<s.length()/2;j++,en--){
+				c=i;
+			for(int j=i+1,en=end;j<s.length()/2;j++,en--){
 					st=s.charAt(j);
 					ed=s.charAt(en);
 					if(st!=ed){
@@ -30,6 +32,7 @@ class PalindromeIndex{
 						break;
 					}
 				}
+				break;
 			}
 			end--;
 		}
