@@ -27,7 +27,7 @@ class BigSorting{
             break;
             }
           }
-          if(true){
+          if(flag){
             tmpstr=s[i];
             s[i]=s[j];
             s[j]=tmpstr;
