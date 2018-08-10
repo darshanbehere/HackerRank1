@@ -7,11 +7,11 @@ class BigSorting{
     for(int i=0;i<n;i++){
       s[i] = sc.next();
     }
-    String tmpStr;
+    String tmpstr="";
     for(int i=0;i<n;i++){
       for(int j=i+1;j<n-1;j++){
-        l1=s[i].length();
-        l2=s[j].length();
+        int l1=s[i].length();
+        int l2=s[j].length();
         if(l1>l2){
           tmpstr=s[i];
           s[i]=s[j];
