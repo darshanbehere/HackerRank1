@@ -26,6 +26,8 @@ class BigSorting{
             flag=true;
             break;
             }
+            else if(x<y)
+              break;
           }
           if(flag){
             tmpstr=s[i];
