@@ -20,8 +20,8 @@ class BigSorting{
         else if(l1==l2){
           boolean flag=false;
           for(int k=0;k<l1;k++){
-            int x = s[i].charAt(i);
-            int y = s[j].charAt(i);
+            int x = s[i].charAt(k);
+            int y = s[j].charAt(k);
             if(x>y){
             flag=true;
             break;
